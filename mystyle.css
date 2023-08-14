@@ -156,3 +156,26 @@ header {
       align-self: flex-end;
       border: 1px solid orange;
     }
+
+    .section-3 {
+      display: flex;
+      /* flex-direction: column; */
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+      gap: 1rem;
+      padding: 0 10rem;
+      border: 1px solid blue;
+      background-color: #d17587;
+    }
+    .sign-up{
+      border: 1px solid blue;
+    }
+    .sign-up p:nth-child(1){
+      font-weight: bold;
+    }
+
+    .section-3 button{
+     padding: .5rem 2.3rem;
+     border-radius: 10px;
+    }
