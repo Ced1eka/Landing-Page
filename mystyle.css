@@ -36,6 +36,7 @@ nav {
   height: 5rem;
   width: 100%;
   background-color: #1f2837;
+  flex: 1;
 }
 .navbar {
   /* border: 1px solid blue; */
@@ -74,6 +75,7 @@ header {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
+  flex: 1;
 }
 
 .main-title {
@@ -115,7 +117,9 @@ header {
   height: 100%;
   width: 100%;
 }
-
+section{
+  flex: 1;
+}
 .section-1 {
   display: flex;
   flex-direction: column;
@@ -235,4 +239,5 @@ header {
       text-align: center;
       gap: .4rem;
       background-color: #1f2837;
+      flex: 1;
     }
